@@ -64,10 +64,6 @@ export default function QuemSomos() {
                         </p>
                     </div>
                 </div>
-
-            </div>
-            <div>
-
             </div>
             <div className="mt-20 relative ">
                 <div className="md:absolute right-0 -top-60 flex z-20">
