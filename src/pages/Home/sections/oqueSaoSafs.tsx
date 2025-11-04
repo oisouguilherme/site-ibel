@@ -12,10 +12,10 @@ export default function OqueSaoSafs() {
                 <div className="md:col-start-1 md:col-span-5 hidden md:block z-20 -mt-96">
                     <img src={ico8} alt="" />
                 </div>
-                <div className="md:col-start-6 md:col-span-4 col-span-12 px-4 md:px-0 z-10">
-                    <div className="md:w-[37rem] text-lg text-right ml-auto">
+                <div className="md:col-start-6 md:col-span-4 col-span-12 px-4 md:px-0 z-10 md:mb-0 mb-10">
+                    <div className="md:w-[37rem] text-lg md:text-right text-center ml-auto">
                         <p className="font-extrabold text-[#3A451F]">O que são SAFs</p>
-                        <h3 className="text-[#3A451F] text-4xl font-bold mb-5">
+                        <h3 className="text-[#3A451F] md:text-4xl text-2xl font-bold mb-5">
                             Sistemas Agroflorestais: natureza <br />
                             e economia de mãos dadas
                         </h3>
@@ -33,9 +33,9 @@ export default function OqueSaoSafs() {
                 <div className="md:col-start-8 md:col-span-5 hidden md:block z-20 -mt-80 aqui">
                     <img src={ico9} alt="" className="ml-auto object-contain" />
                 </div>
-                <div className="md:col-start-5 md:col-span-4 col-span-12 px-4 md:px-0 z-10 md:-mt-[35rem]">
-                    <div className="text-lg text-right ml-auto">
-                        <p className="mb-3 text-[#C2B59B] font-extrabold text-4xl">
+                <div className="md:col-start-5 md:col-span-4 col-span-12 px-4 md:px-0 z-10 md:-mt-[35rem] md:mb-0 mb-10">
+                    <div className="text-lg md:text-right text-center ml-auto">
+                        <p className="mb-3 text-[#C2B59B] font-extrabold text-3xl">
                             Os SAFs podem multiplicar
                             em até 10 vezes a renda
                             por hectare, comparados à
@@ -49,7 +49,7 @@ export default function OqueSaoSafs() {
                 <div className="row-start-1 col-start-1 z-0">
                     <img className="w-full h-full object-cover" src={fundoSafs} alt="" />
                 </div>
-                <div className="row-start-1 col-start-1 z-10 relative">
+                <div className="row-start-1 col-start-1 z-10 relative mb-96">
                     <div className="container mx-auto px-4 md:px-0 pt-32 md:pt-64 pb-20">
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-white -mt-20">
                             <div className="text-center text-2xl">
@@ -84,7 +84,7 @@ export default function OqueSaoSafs() {
                                 </p>
                             </div>
                         </div>
-                        <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div className="md:mt-28 mt-10  md:grid flex grid-cols-1 md:grid-cols-3 gap-8">
                             <div>
                                 <img className="w-full h-full object-contain" src={img1} alt="" />
                             </div>

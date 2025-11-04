@@ -7,7 +7,19 @@ body {
     @apply flex flex-col min-h-screen;
 }
 
-.banner{
+.banner {
     background: url("../images/header-banner.png") no-repeat center;
     background-size: cover;
+}
+
+.swiper-pagination-custom .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #d1d1d1;
+    opacity: 1;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-custom .swiper-pagination-bullet-active {
+    background-color: #5a2c6d;
 }

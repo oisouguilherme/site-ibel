@@ -9,7 +9,7 @@ import img from "../../assets/images/img-footer.png"
 
 export default function Footer() {
     return (
-        <footer >
+        <footer className="mt-20">
             <div>
                 <img className="w-full" src={img} alt="" />
             </div>
