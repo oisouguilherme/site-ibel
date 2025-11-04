@@ -44,7 +44,7 @@ function BlocoCard({ imagem, titulo }: BlocoCardProps) {
 
 export default function ComoAtuamos() {
     return (
-        <main className="md:mt-20 -mt-20">
+        <main className="md:mt-20 mt-10">
             <section className="grid md:grid-cols-12 md:gap-x-8 items-start">
                 <div className="md:col-start-4 lg:col-start-4 md:col-span-6 lg:col-span-4 col-span-12 px-4 md:px-0 z-10">
                     <div className=" text-lg">

@@ -11,45 +11,45 @@ export default function Footer() {
     return (
         <footer className="mt-20">
             <div>
-                <img className="w-full" src={img} alt="" />
+                <img className="w-full" src={img} alt="Detalhe decorativo do rodapé" />
             </div>
-            <div className="bg-[#c2b59b] h-56 py-10 flex justify-center items-center">
-                <div className="flex justify-center items-end space-x-10">
-                    <div className="-mb-3">
-                        <img src={logo} alt="" />
+            <div className="bg-[#c2b59b] h-auto py-10 flex justify-center items-center">
+                <div className="flex flex-col items-center space-y-8 lg:flex-row lg:items-end lg:justify-center lg:space-y-0 lg:space-x-10">
+                    <div className="lg:-mb-3">
+                        <img src={logo} alt="Logo da empresa" />
                     </div>
+
                     <div className="space-y-4">
-                        <div className="flex justify-end">
-                            <p>&#91; PT · EN  · ES &#93;</p>
+                        <div className="flex justify-center lg:justify-end">
+                            <p>&#91; PT · EN · ES &#93;</p>
                         </div>
-                        <div className="flex justify-end">
+                        <div className="flex justify-center lg:justify-end">
                             <div className="flex space-x-5 mb-3">
                                 <Link to='/'>
-                                    <img src={whatsap} alt="" />
+                                    <img src={whatsap} alt="WhatsApp" />
                                 </Link>
                                 <Link to='/'>
-                                    <img src={instagram} alt="" />
+                                    <img src={instagram} alt="Instagram" />
                                 </Link>
                                 <Link to='/'>
-                                    <img src={facebook} alt="" />
+                                    <img src={facebook} alt="Facebook" />
                                 </Link>
                                 <Link to='/'>
-                                    <img src={linkedin} alt="" />
+                                    <img src={linkedin} alt="LinkedIn" />
                                 </Link>
                                 <Link to='/'>
-                                    <img src={email} alt="" />
+                                    <img src={email} alt="Email" />
                                 </Link>
                             </div>
                         </div>
-                        <div className="md:flex space-x-5 font-semibold text-2xl">
+                        <div className="font-semibold text-xl text-center space-y-2 lg:text-2xl lg:text-left lg:flex lg:space-y-0 lg:space-x-5">
                             <p className="text-white">quem somos</p>
-                            <p>&#46;</p>
+                            <p className="hidden lg:block">&#46;</p>
                             <p>como atuamos</p>
-                            <p>&#46;</p>
+                            <p className="hidden lg:block">&#46;</p>
                             <p>nossos projetos</p>
-                            <p>&#46;</p>
+                            <p className="hidden lg:block">&#46;</p>
                             <p>contato </p>
-
                         </div>
                     </div>
 
