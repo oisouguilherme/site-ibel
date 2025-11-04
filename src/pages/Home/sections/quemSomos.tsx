@@ -142,7 +142,7 @@ export default function QuemSomos() {
                     <img src={baixo} alt="" />
                 </div>
             </div>
-            <div className="">
+            <div className="md:block hidden">
                 <img className="w-full" src={divisao} alt="" />
             </div>
         </>
