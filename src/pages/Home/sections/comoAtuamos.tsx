@@ -71,7 +71,7 @@ export default function ComoAtuamos() {
 
                     </div>
                 </div>
-                <div className="md:col-start-9 md:col-span-4 lg:col-span-5 col-span-12 hidden md:block md:-mt-36 lg:-mt-64 relative z-20">
+                <div className="md:col-start-9 md:col-span-4 lg:col-span-5 col-span-12 hidden md:block md:-mt-36 lg:-mt-64 relative z-20" id='comoatuamos'>
                     <img className="w-full ml-auto" src={ico7} alt="" />
                 </div>
             </section>

@@ -1,6 +1,7 @@
 html,
 body {
-    @apply font-roboto;
+    // @apply font-sans;
+    scroll-behavior: smooth;
 }
 
 #root {

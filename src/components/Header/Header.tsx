@@ -31,13 +31,13 @@ export default function Header() {
                 </div>
                 <div className="font-semibold text-lg text-center space-y-3 
                                 md:flex md:space-x-5 md:text-2xl md:text-left md:space-y-0">
-                    <p className="text-[#ba5715]">quem somos</p>
+                    <a href="#quemsomos" className="text-[#ba5715]">quem somos</a>
                     <p className="hidden md:block">&#46;</p>
-                    <p>como atuamos</p>
+                    <a href="#comoatuamos">como atuamos</a>
                     <p className="hidden md:block">&#46;</p>
-                    <p>nossos projetos</p>
+                    <a href="#projetos">nossos projetos</a>
                     <p className="hidden md:block">&#46;</p>
-                    <p>contato </p>
+                    <a href="#contato">contato </a>
                     <p>&#91; PT · EN · ES &#93;</p>
                 </div>
             </div>

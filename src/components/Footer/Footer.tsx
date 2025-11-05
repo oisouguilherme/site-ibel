@@ -42,14 +42,26 @@ export default function Footer() {
                                 </Link>
                             </div>
                         </div>
-                        <div className="font-semibold text-xl text-center space-y-2 lg:text-2xl lg:text-left lg:flex lg:space-y-0 lg:space-x-5">
-                            <p className="text-white">quem somos</p>
+                        <div className="font-semibold text-xl text-center grid grid-cols-2 gap-x-6 gap-y-2 lg:text-2xl lg:text-left lg:flex lg:gap-0 lg:space-y-0 lg:space-x-5">
+
+                            {/* O "text-white" continua aqui */}
+                            <a href="#quemsomos" className="text-white">quem somos</a>
+
+                            {/* Este separador 'lg:block' continua correto (escondido no mobile, visível no desktop) */}
                             <p className="hidden lg:block">&#46;</p>
-                            <p>como atuamos</p>
+                            <a href="#comofunciona">como funciona</a>
+
                             <p className="hidden lg:block">&#46;</p>
-                            <p>nossos projetos</p>
+                            <a href="#noticias">notícias</a>
+
                             <p className="hidden lg:block">&#46;</p>
-                            <p>contato </p>
+                            <a href="#trabalheconosco">trabalhe conosco</a>
+
+                            <p className="hidden lg:block">&#46;</p>
+                            <a href="#canalaberto">canal aberto</a>
+
+                            <p className="hidden lg:block">&#46;</p>
+                            <a href="#contato">contato</a>
                         </div>
                     </div>
 

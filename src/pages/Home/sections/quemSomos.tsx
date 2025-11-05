@@ -12,7 +12,7 @@ import divisao from "../../../assets/images/divisa.png"
 export default function QuemSomos() {
     return (
         <>
-            <div className="bg-[#C2B59B] md:pb-64 pb-10">
+            <div className="bg-[#C2B59B] md:pb-64 pb-10" >
                 <div className="container mx-auto ">
                     <div className="pt-10">
                         <div>
@@ -36,7 +36,7 @@ export default function QuemSomos() {
                     <div className="md:absolute right-0 bottom-[-55rem] md:flex z-10 hidden">
                         <img className="md:w-[48rem]" src={img4} alt="" />
                     </div>
-                    <div className="absolute md:right-[52rem] top-3 grid place-items-center z-10">
+                    <div className="absolute md:right-[52rem] top-3 grid place-items-center z-10" id='quemsomos'>
                         <img src={img2} alt="" className="row-start-1 col-start-1" />
                         <p className="row-start-1 col-start-1 text-center font-semibold text-white text-2xl">
                             Conheça <br />
@@ -49,12 +49,9 @@ export default function QuemSomos() {
                     <img src={cima} alt="" />
                 </div>
                 <div className="md:bg-[#C2B59B]  bg-[#DDD6C7] md:mt-64 container mx-auto">
-
                     <div className="pb-10 relative">
                         <div className="absolute -top-36 -left-44 z-0 md:block hidden">
-
                             <img className="md:w-[60rem]" src={img3} alt="" />
-                            {/* <img src={cima} alt="" /> */}
                         </div>
                         <div className="relative z-10 ">
                             <div className="mb-5 text-[#ba5715]">

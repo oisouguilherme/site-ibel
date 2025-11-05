@@ -15,7 +15,8 @@ export default {
       padding: '1rem',
     },
     fontFamily: {
-      'roboto': ['Roboto', 'sans-serif'],
+      sans: ['"Roboto Flex"', ...defaultTheme.fontFamily.sans],
+      'roboto-normal': ['Roboto', 'sans-serif'],
     },
     extend: {
       colors: {
