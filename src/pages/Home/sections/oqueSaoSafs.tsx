@@ -43,7 +43,6 @@ export default function OqueSaoSafs() {
                         </p>
                     </div>
                 </div>
-
             </section>
             <section className="grid md:-mt-52">
                 <div className="row-start-1 col-start-1 z-0">
@@ -97,7 +96,6 @@ export default function OqueSaoSafs() {
                         </div>
                     </div>
                 </div>
-
             </section>
         </main>
     );

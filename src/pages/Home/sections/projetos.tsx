@@ -49,7 +49,6 @@ export default function Projetos() {
                     <h3 className="md:text-4xl text-2xl">Onde a restauração acontece</h3>
                 </div>
             </div>
-
             <div className="relative w-full py-16 md:mt-40 mt-10">
                 <Swiper
                     modules={[Navigation, Pagination, A11y]}
@@ -79,7 +78,6 @@ export default function Projetos() {
                         </SwiperSlide>
                     ))}
                 </Swiper>
-
                 <div className="absolute w-full justify-between md:px-40 -bottom-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-16">
                     <button className="swiper-button-prev-custom p-2 rounded-full text-[#5a2c6d] transition-opacity hover:opacity-70 disabled:opacity-30">
                         <img src={seta1} alt="" />
